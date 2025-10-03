@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Automação Contábil - Cerrado Finanças</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--primary:#1f2a37;--accent:#2ea44f;--bg:#f9fafb;--text:#374151;--muted:#6b7280}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,system-ui,Arial;background:var(--bg);color:var(--text);line-height:1.6}
+  .container{max-width:900px;margin:0 auto;padding:0 20px}
+  section{padding:64px 0;text-align:center}
+  #hero{background:var(--primary);color:#fff}
+  h1{margin:0 0 12px;font-weight:800;font-size:clamp(28px,5vw,44px)}
+  p.lead{margin:0 auto 28px;max-width:660px;color:#e5e7eb}
+  .cta{display:inline-block;padding:12px 22px;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700}
+  .cta:hover{filter:brightness(.95)}
+  h2{margin:0 0 8px;font-weight:800;font-size:clamp(24px,4vw,34px);color:var(--primary)}
+  .sub{margin:0 auto 36px;max-width:680px;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;text-align:left}
+  .card{background:#fff;padding:18px;border-radius:12px;border-left:4px solid var(--accent)}
+  .card h3{margin:0 0 6px;font-size:16px;color:var(--primary)}
+  .card p{margin:0;color:var(--muted);font-size:14px}
+  .row{display:grid;grid-template-columns:1fr;gap:16px;max-width:720px;margin:0 auto}
+  .benefit{display:flex;align-items:center;gap:12px;background:#fff;padding:16px;border-radius:12px}
+  .icon{width:40px;height:40px;border-radius:999px;display:grid;place-items:center;background:rgba(46,164,79,.1);color:var(--accent);flex-shrink:0}
+  footer{background:#0b1220;color:#9ca3af;text-align:center;padding:22px 0;font-size:14px}
+  footer a{color:#d4af37;text-decoration:none}
+</style>
+</head>
+<body>
+
+<main>
+  <section id="hero">
+    <div class="container">
+      <h1>Automação contábil que economiza tempo</h1>
+      <p class="lead">Os robôs executam tarefas repetitivas do escritório o tempo todo e liberam a equipe para outras atividades.</p>
+      <a href="#" class="cta cta-whats" data-section="Hero">Falar no WhatsApp</a>
+    </div>
+  </section>
+
+  <section id="como-funciona">
+    <div class="container">
+      <h2>Geração automatizada da guia do Simples</h2>
+      <p class="sub">A automação conecta sistemas e elimina a necessidade de digitação manual. Por exemplo, o software de faturamento pode se integrar ao sistema de vendas e ao ambiente fiscal, permitindo que os dados fluam automaticamente entre eles. Assim que uma venda é registrada, as informações são importadas, processadas e usadas na apuração sem intervenção humana. Essa integração reduz erros e acelera etapas que antes demandavam horas de trabalho.</p>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M9.828 3a3 3 0 0 1 2.12.879l1.172 1.172A3 3 0 0 1 14 7.172V12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a3 3 0 0 1 3-3z"/></svg>
+          </div>
+          <h3>Coleta de dados</h3>
+          <p>Busca automática dos arquivos fiscais, integração com sistemas e organização das informações sem necessidade de planilhas manuais.</p>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m1 2h6v3H5zm0 5h2v2H5zm0 3h2v2H5zm3-3h2v2H8zm0 3h2v2H8z"/></svg>
+          </div>
+          <h3>Apuração e geração</h3>
+          <p>Os dados importados são processados, o imposto é calculado e a guia DAS é emitida em minutos.</p>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856c-.554 4.157.726 7.19 2.253 9.188A10.7 10.7 0 0 0 7.04 13.967l.96.44.96-.44a10.7 10.7 0 0 0 2.286-2.333c1.527-1.997 2.807-5.03 2.253-9.188a61.44 61.44 0 0 0-2.837-.856C9.32.8 8 .516 6.679.8 5.478 1.258 4.17 2.004 2.86 2.72z"/><path d="M11.146 5.146a.5.5 0 0 1 .708.708L8.207 9.5l-1.5-1.5a.5.5 0 1 1 .707-.707l.793.793z"/></svg>
+          </div>
+          <h3>Envio e arquivamento</h3>
+          <p>Guia enviada por e-mail aos clientes e comprovantes arquivados automaticamente.</p>
+        </div>
+      </div>
+      <br>
+      <a href="#" class="cta cta-whats" data-section="Como funciona">Falar no WhatsApp</a>
+    </div>
+  </section>
+
+  <section id="beneficios">
+    <div class="container">
+      <h2>Vantagens</h2>
+      <div class="row">
+        <div class="benefit">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M0 0h1v15h15v1H0z"/><path d="M2 13h2V7H2zm4 0h2V3H6zm4 0h2V9h-2zm4 0h2V5h-2z"/></svg>
+          </div>
+          <div>Redução de custos operacionais</div>
+        </div>
+        <div class="benefit">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M8 3.5a.5.5 0 0 1 .5.5v3.293l2.646 2.647a.5.5 0 0 1-.707.707L7.5 8.207V4a.5.5 0 0 1 .5-.5"/></svg>
+          </div>
+          <div>Produtividade e rapidez</div>
+        </div>
+        <div class="benefit">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M13.485 1.929a.75.75 0 0 1 0 1.06L6.53 9.944 3.515 6.93a.75.75 0 0 1 1.06-1.06l1.955 1.955 6.03-6.03a.75.75 0 0 1 1.06 0"/></svg>
+          </div>
+          <div>Conformidade e menos erros</div>
+        </div>
+      </div>
+      <br>
+      <a href="#" class="cta cta-whats" data-section="Beneficios">Falar no WhatsApp</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2025 <a href="#" target="_blank" rel="noopener">Cerrado Finanças</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var phone = "5567993515206";
+    var base = "http://api.whatsapp.com/send?phone=" + phone + "&text=";
+    var path = location.pathname + (location.hash || "");
+    var ref = document.referrer ? " | referrer " + document.referrer : "";
+    document.querySelectorAll(".cta-whats").forEach(function(btn){
+      var sec = btn.getAttribute("data-section") || "Página";
+      var msg = "Olá! Vim da seção " + sec + " da página Automação Contábil da Cerrado Finanças em " + path + ref + ". Quero um diagnóstico.";
+      btn.setAttribute("href", base + encodeURIComponent(msg));
+      btn.setAttribute("target","_blank");
+      btn.setAttribute("rel","noopener noreferrer");
+    });
+  })();
+</script>
+
+</body>
+</html>
